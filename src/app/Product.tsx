@@ -3,6 +3,7 @@ import { View } from "react-native";
 
 import { StackRoutesProps } from "@/routes/StackRoutes";
 import { BottomRoutesProps } from "@/routes/BottomRoutes";
+import { DrawerRoutesProps } from "@/routes/DrawerRoutes";
 //import { useNavigation } from "@react-navigation/native";
 
 import { Header } from "@/components/Header";
@@ -11,13 +12,13 @@ import { ButtonIcon } from "@/components/ButtonIcon";
 
 //type RouteParams = StackRoutesProps<"Product">;
 
-export function Product({ navigation, route }: BottomRoutesProps<"Product">) {
+export function Product({ navigation, route }: DrawerRoutesProps<"Product">) {
   //const { params } = useRoute<RouteParams["route"]>();
 
   //const navigation = useNavigation();
 
   return (
-    <View style={{ flex: 1, padding: 32, paddingTop: 54 }}>
+    <View style={{ flex: 1, padding: 16, paddingTop: 27 }}>
       <Header>
         <ButtonIcon
           name="arrow-circle-left"

@@ -1,4 +1,4 @@
-/*import {
+import {
   createDrawerNavigator,
   DrawerScreenProps,
 } from "@react-navigation/drawer";
@@ -50,4 +50,3 @@ export function DrawerRoutes() {
     </Drawer.Navigator>
   );
 }
-*/
