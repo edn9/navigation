@@ -35,6 +35,12 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+<<<<<<< HEAD
 # others
 android
 .cursor
+=======
+# android folder
+android
+.cursor
+>>>>>>> 3385e6ca9105d8e4f5ab194ae91e5a04059e5362
